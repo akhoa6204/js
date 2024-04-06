@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "name": "Dân chơi sao phải khóc",
+      "singer": "Andree Right Hand", 
+      "path": "./assets/music/Andree Right Hand - Dân Chơi Sao Phải Khóc ft. RHYDER, WOKEUP - Official MV.mp3",
+      "image": "https://img.youtube.com/vi/zDNOhR-Ms-I/maxresdefault.jpg" 
+  },{
+      "name": "Đánh Đổi",
+      "singer": "Obito FT MCK", 
+      "path": "./assets/music/Obito - Đánh Đổi ft. MCK.mp3",
+      "image": "https://img.youtube.com/vi/vPz8ftK_4bk/maxresdefault.jpg" 
+  },{
+      "name": "NOLOVENOLIFE",
+      "singer": "HIEUTHUHAI (prod. by Kewtiie)", 
+      "path": "./assets/music/HIEUTHUHAI - NOLOVENOLIFE (prod. by Kewtiie) [Official Lyric Video].mp3",
+      "image": "https://img.youtube.com/vi/F084mTHtBpI/maxresdefault.jpg" 
+  },{
+      "name": "TOKYO Cypher",
+      "singer": "Lil Wuyn, 16 BrT, 16 Typh", 
+      "path": "./assets/music/Lil Wuyn, 16 BrT, 16 Typh - TOKYO Cypher.mp3",
+      "image": "https://img.youtube.com/vi/TFmq8zuHBm4/maxresdefault.jpg" 
+  },{
+      "name": "Đầu Đường Xó Chợ",
+      "singer": "Obito ft. Lăng LD", 
+      "path": "./assets/music/Obito - Đầu Đường Xó Chợ ft. Lăng LD.mp3",
+      "image": "https://img.youtube.com/vi/xRL2BspFnOs/maxresdefault.jpg" 
+  },{
+      "name": "Chịu cách mình nói thua",
+      "singer": "RHYDER ft. BAN x COOLKID", 
+      "path": "./assets/music/RHYDER - CHỊU CÁCH MÌNH NÓI THUA - ft. BAN x COOLKID - OFFICIAL MUSIC VIDEO.mp3",
+      "image": "https://img.youtube.com/vi/dm5-tn1Rug0/maxresdefault.jpg" 
+  }
+  ,{
+      "name": "Chillin",
+      "singer": "charlieonnafriday", 
+      "path": "./assets/music/Chillin.mp3",
+      "image": "https://img.youtube.com/vi/SCsGHmOhrkA/maxresdefault.jpg" 
+  }
+  ,{
+      "name": "No Boundary",
+      "singer": "D. ICY ft. Obito", 
+      "path": "./assets/music/Richie D. ICY - No Boundary ft. Obito (Official Music Video).mp3",
+      "image": "https://img.youtube.com/vi/yptflB597IQ/maxresdefault.jpg" 
+  }
+  ,{
+      "name": "ILYMAMA",
+      "singer": "Wxrdie (ft. @QNTOfficial) [prod. Central Pham]", 
+      "path": "./assets/music/Wxrdie - ILYMAMA (ft. @QNTOfficial) [prod. Central Pham].mp3",
+      "image": "https://img.youtube.com/vi/8DV-S9w7hu0/maxresdefault.jpg" 
+  }
+  ,{
+      "name": "Rolling",
+      "singer": "Richie D. ICY & AXTROBOY", 
+      "path": "./assets/music/Richie D. ICY & AXTROBOY - Rolling (Official Music Video).mp3",
+      "image": "https://img.youtube.com/vi/tzEvWO4jugI/maxresdefault.jpg" 
+  }
+  ]
+}

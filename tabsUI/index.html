@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{ 
+            font-family: 'Poppins', sans-serif;
+        }
+        body > div {
+            margin: 15% auto 0; 
+            max-width: 720px;
+        }
+        .tabs{
+            display: flex;
+            position: relative;
+        }
+        .tabs .line{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 6px;
+            border-radius: 15px;
+            background-color: #c23564;
+            transition:  all 0.2s ease ;
+        }
+        .tab-item {
+            min-width: 80px;
+            padding: 16px 20px 11px 20px;
+            font-size: 20px;
+            text-align: center;
+            color: #c23564;
+            background-color:  #fff;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom:  5px solid transparent;
+            opacity: 0.6;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+        .tab-item:hover{
+            opacity: 1;
+            background-color: rgba(194, 53,100, 0.05);
+            border-color: rgba(194, 53,100, 0.1);
+        }
+        .tab-item:active{
+            opacity: 1;
+        }
+        .tab-content{
+            padding: 28px 0;
+        }
+        .tab-pane{
+            color: #333;
+            display: none;
+        }
+        .tab-pane.active{
+            display: block;
+        }
+        .tab-pane h2{
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+        <div class="tabs">
+            <div class="tab-item active">
+                <i class="tab-icon fas fa-code"></i>
+                React
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-cog"></i>
+                Angular
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-plus-circle"></i>
+                Ember
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-pen-nib"></i>
+                VUE.js
+            </div>
+            <div class="line"></div>
+        </div>
+        
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <h2>React</h2>
+                <p>Desc</p>
+            </div>
+            <div class="tab-pane">
+                <h2>Angular</h2>
+                <p>Desc</p>
+            </div>
+            <div class="tab-pane">
+                <h2>Ember</h2>
+                <p>Desc</p>
+            </div>
+            <div class="tab-pane">
+                <h2>VUE.js</h2>
+                <p>Desc</p>
+            </div>
+        </div>
+        <script>
+            const $ = document.querySelector.bind(document) 
+            const $$ = document.querySelectorAll.bind(document) 
+        
+            const tabs = $$('.tab-item')
+            const panes = $$('.tab-pane')
+        
+            const line = $('.tabs .line')
+            
+            tabs.forEach((tab, index) => {
+                const pane = panes[index]
+                tab.onclick = () =>{
+                    $('.tab-item.active').classList.remove('active')
+                    $('.tab-pane.active').classList.remove('active')
+                    
+                    line.style.left = tab.offsetLeft + 'px'
+                    line.style.width = tab.offsetWidth + 'px'
+                    
+                    tab.classList.add('active')
+                    pane.classList.add('active')
+                }   
+            })
+        </script>
+</body>
+
+</html>
